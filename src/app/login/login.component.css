@@ -1,0 +1,30 @@
+#loginMainContent{
+    text-align: center;
+      border-bottom: 3px solid red;
+        padding: 20px 0;
+
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+div .input {
+  position: relative;
+  margin-top: 20px;
+}
+
+div .input label {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  left: 10px;
+  background: white;
+  padding: 5px 2px;
+}
+
+div .input input {
+  padding: 10px 20px;
+  font-size: 25px;
+  outline: 0;
+}

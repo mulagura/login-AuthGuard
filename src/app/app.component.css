@@ -1,0 +1,17 @@
+/*ful page */
+
+#fullPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/*header */
+
+#headerTitle{
+      text-align: center;
+      border-bottom: 3px solid green;
+      font-size: 30px;
+      padding: 20px 0;
+}
